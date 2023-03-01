@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hero-section-bg{
+    background-color: #ededed;
+    padding-bottom: 80px;
+}
+.filter-section{
+    background-color: #ffff;
+    padding-bottom: 90px;
+    /* margin-top: 80px; */
+    border-radius: 8px;
+    border-width: 5px;
+    border: solid 1px #d7d7d7;
+}
+.heading{
+    font-weight: 500;
+    margin-left: 10px;
+    padding-top: 15px;
+    font-size: 16px;
+    color: #000;
+}
+.line-1 {
+    height: 1px;
+    background: #eaeaea;
+}
+.highlight{
+    color: #005DA2;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.true-icon{
+    margin-left: 76px;
+    font-size: 20px;
+    color: #005DA2;
+}
+.data{
+    margin-left: 10px;
+    color: #a4a4a4;
+    font-size: 12px;
+}
+
+
+
+/* Responsive css Start */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	/* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  .filter-section{
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html{
+        font-size: 50%;
+      }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

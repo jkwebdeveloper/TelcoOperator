@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.devices-section{
+    background-color: #ededed;
+    padding-bottom: 80px;
+}
+.devices-product{
+    background-color: #ffff;
+    border-radius: 8px;
+    border-width: 5px;
+    border: solid 1px #d7d7d7;
+    padding-bottom: 30px;
+}
+.heading p{
+    font-family: SF Pro Text;
+    font-weight: 600;
+    margin-left: 10px;
+    padding-top: 15px;
+    font-size: 13px;
+}
+.card{
+    display: grid;
+    border-radius: 8px;
+}
+
+.product-box{
+    padding: 10px 10px 20px 10px;
+    background-color: white;
+    box-shadow: -1px -1px 6px 0px #eaeae8;
+    border: 1px solid #eaeae8;
+    margin-top: 20px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    width: 100%;
+    width: 92%;
+}
+.product-box:hover{
+    /* transform: scale(1.1); */
+    /* transition: transform .5s all; */
+    box-shadow: 1px 1px 10px 5px #eaeae8;
+}
+.product-name{
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 14px;
+}
+.device-name{
+    font-size: 15px;
+    font-weight: 500;
+}
+.product-price-month{
+    display: flex;
+    padding-top: 13px;
+    justify-content: center;
+}
+.product-price {
+    font-size: 15px;
+    font-weight: 700;
+    color: #005DA2;
+}
+.month{
+    font-size: 15px;
+}
+.showing-data{
+    padding-top: 45px;
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.pagination{
+    display: flex;
+    padding-top: 30px;
+}
+ul{
+    margin: 20px 30px 0px 0px;
+}
+ul li{
+    display: inline-block;
+    margin: 0 25px;
+    /* width: 45px;
+    height: 45px; */
+    /* border-radius: 50%; */
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    /* line-height: 45px; */
+    cursor: pointer;
+}
+.pagination ul li:hover{
+    color: #005DA2;
+    /* width: 45px;
+    height: 45px;
+    padding-bottom: 20px; */
+}
+.left-arrow, .right-arrow{
+    font-size: 15px;
+    color: #adadad;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive css Start */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	/* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  .devices-product{
+    text-align: center;
+    padding-top: 10px;
+  }
+  .product-price-month{
+    text-align: center;
+    justify-content: center;
+  }
+  .pagination ul {
+    margin: -8px 0px 0px -32px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

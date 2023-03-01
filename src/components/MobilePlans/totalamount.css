@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.amount-section{
+    background-color: #ffff;
+    /* height: 40vh; */
+    /* margin-top: 80px; */
+    border-radius: 8px;
+    border-width: 5px;
+    border: solid 1px #d7d7d7;
+    padding-bottom: 23px;
+}
+.data-amount{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.price{
+    padding-top: 15px;
+    font-size: 13px;
+    margin-left: 61px;
+}
+.heading{
+    display: flex;
+}
+.amount-btn-top{
+    width: 80%;
+    display: flex;
+    margin-left: 25px;
+    justify-content: center;
+    border-radius: 35px;
+    border: none;
+    background-color: #005DA2;
+    padding: 7px;
+    color: #fff;
+    font-size: 16px;
+}
+.amount-btn{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border-radius: 35px;
+    padding: 7px;
+    background-color: #fff;
+    border-color: #005DA2;
+    color: #005DA2;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+
+/* Responsive css Start */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	/* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

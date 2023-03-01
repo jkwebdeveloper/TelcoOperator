@@ -1,0 +1,293 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.iphone-section{
+    padding-bottom: 150px;
+}
+.product-img{
+    padding-top: 80px;
+    cursor: pointer;
+}
+.devices-show img{
+    margin: 14px 25px 10px 0px;
+    border: 1px solid #E6E6E6;
+    padding: 3px;
+}
+.devices-show img:hover{
+    border: 2px solid #005DA2;
+}
+.disc-heading{
+    font-weight: 500;
+    padding: 25px 0px 10px 0px;
+    font-size: 16px;
+}
+.disc{
+    /* font-family: SF Pro Text; */
+    font-size: 15px;
+    text-align: left;
+    width: 68%;
+    padding-bottom: 20px;
+}
+.rightbar-heading{
+    padding-top: 80px;
+}
+.name{
+    font-size: 12px;
+}
+.devicrs-name{
+    font-size: 25px;
+    font-weight: 500;
+}
+.recurring-box{
+    display: flex;
+    height: 63px;
+    width: 100%;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.recurring-box:hover{
+    background-color: #000000;
+    color: #fff;
+}
+.dot{
+    height: 20px;
+    width: 20px;
+    /* background-color: #000; */
+    border: 1px solid #000;
+    border-radius: 50px;
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+.dot:hover{
+    height: 20px;
+    width: 20px;
+    /* background-color: #000; */
+    border: 1px solid #fff;
+    border-radius: 50px;
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+.recurring-box .text{
+    font-size: 15px;
+    padding-left: 10px;
+    position: absolute;
+}
+.recurring-box .dot::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 11px;
+    height: 11px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.radio-btn{
+    display: flex;
+    padding-top: 10px;
+}
+
+.Add-next{
+    width: 100%;
+    border-radius: 35px;
+    border: none;
+    background-color: #005DA2;
+    padding: 15px;
+    color: #fff;
+    font-size: 16px;
+}
+.Add-next:hover{
+    background-color: #fff;
+    /* border-color: #005DA2; */
+    border: 1px solid #005DA2;
+    color: #005DA2;
+}
+.back{
+    width: 100%;
+    border-radius: 35px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #005DA2;
+    color: #005DA2;
+    margin-left: 7px;  
+    font-size: 16px;
+}
+.back:hover{
+    background-color: #005DA2;
+    /* border-color: #005DA2; */
+    /* border: 1px solid #005DA2; */
+    color: #fff;
+}
+.line-4{
+    margin-top: 33px;
+    height: 1px;
+    background: #eaeaea;
+}
+.color-box{
+    display: flex;
+}
+.color-change{
+    height: 25px;
+    width: 25px;
+    background-color: #F0F2F1;
+    border-radius: 50px;
+    border: none;
+}
+.color-change:hover{
+    border: 2px solid #005DA2;
+}
+.color-purple{
+    height: 25px;
+    width: 25px;
+    background-color: #5C3A7D;
+    border-radius: 50px;
+    margin-left: 10px;
+    border: none;
+}
+.color-purple:hover{
+    border: 2px solid #005DA2;
+}
+.color-midnight{
+    height: 25px;
+    width: 25px;
+    background-color: #464443;
+    border-radius: 50px;
+    margin-left: 10px;
+    border: none;
+}
+.color-midnight:hover{
+    border: 2px solid #005DA2;
+}
+.color-gold{
+    height: 25px;
+    width: 25px;
+    background-color: #E0B465;
+    border-radius: 50px;
+    margin-left: 10px;
+    border: none;
+}
+.color-gold:hover{
+    border: 2px solid #005DA2;
+}
+.color-black{
+    height: 25px;
+    width: 25px;
+    background-color: #000;
+    border-radius: 50px;
+    margin-left: 10px;
+    border: none;
+}
+.color-black:hover{
+    border: 2px solid #005DA2;
+}
+.storage-btn button{
+    background-color: #F5F5F5;
+    height: 45px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 10px 23px 0px 0px;
+    border: none;   
+}
+.storage-btn button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.specification-box{
+    border: 1px solid #E6E6E6;
+    width: 100%;
+    height: auto;
+}
+.spec-text{
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;
+    padding-left: 12px;
+    margin-top: 15px;
+}
+.spec-size{
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 15px;
+}
+
+
+
+
+
+/* Responsive css Start */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	/* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+  .disc{
+    width: 100%;
+  }
+  .devices-show img{
+    margin: 13px 7px 10px 0px;
+  }
+  .devices-show{
+    text-align: center;
+    padding-top: 20px;
+  }
+  .product-img{
+    text-align: center;
+  }
+  .Add-next-btn{
+    width: 100%;
+  }
+  .back-btn{
+    width: 100%;
+    padding-top: 10px;
+    /* border-radius: 35px; */
+    /* padding: 15px; */
+    /* background-color: #fff;
+    border: 1px solid #005DA2;
+    color: #005DA2; */
+    /* margin-left: 7px; */
+    /* font-size: 16px; */
+  }
+  .radio-btn{
+    display: grid;
+}
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* [class*="col-"] {
+        width: 100%;
+      } */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

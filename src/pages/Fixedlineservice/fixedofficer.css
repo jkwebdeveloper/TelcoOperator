@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.filter-section{
+    background-color: #ffff;
+    padding-bottom: 90px;
+    /* margin-top: 80px; */
+    border-radius: 8px;
+    border-width: 5px;
+    border: solid 1px #d7d7d7;
+}
+.subscriptions-box {
+    background-color: white;
+    box-shadow: -1px -1px 6px 0px #eaeae8;
+    margin-top: 20px;
+    border-radius: 15px;
+    border-width: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hd-pack-details{
+    display: flex;
+}
+.details-text{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    padding-left: 10px;
+}
+.days{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    padding-left: 87px;
+}
+.channel{
+    display: flex;
+}
+.channel-text{
+    font-size: 12px;
+    padding-left: 10px;
+    margin-top: -5px;
+    color: #ababab;
+    font-weight: 400;
+}
+.valid{
+    font-size: 12px;
+    padding-left: 64px;
+    margin-top: -5px;
+    color: #ababab;
+}
+.valid-center{
+    font-size: 12px;
+    padding-left: 88px;
+    margin-top: -5px;
+    color: #ababab;
+}
+.price-bottom{
+    display: flex;
+    padding: 8px;
+}
+.price-text{
+    font-size: 18px;
+    font-weight: 600;
+    color: #005DA2;
+    padding-top: 5px;
+}
+.remove-btn{
+    padding-left: 36px;
+}
+.remove-btn button{
+    height: 32px; 
+    width: 82px;
+    border-radius: 20px;
+    border: none;
+    background-color: #DF0109;
+    color: #ffff;
+}
+.remove-btn-blue{
+    padding-left: 36px;
+}
+.remove-btn-blue button{
+    height: 32px; 
+    width: 82px;
+    border-radius: 20px;
+    border: none;
+    background-color: #005DA2;
+    color: #ffff;
+}
+
+
+.wifi-section-box {
+    background-color: white;
+    box-shadow: -1px -1px 6px 0px #eaeae8;
+    margin-top: 20px;
+    border-radius: 12px;
+    border-width: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.wifi-img img{
+    height: 180px;
+    padding: 37px;
+}
+.wifi-modal{
+    font-weight: 500;
+    padding-left: 10px;
+}
+.wifi-color{
+    padding-left: 10px;
+    color: #000;
+    margin-top: -7px;
+    font-size: 13px;
+}
+.add-btn-blue{
+    padding-left: 25px;
+}
+.add-btn-blue button{
+    height: 35px; 
+    padding: 5px;
+    width: 82px;
+    border-radius: 20px;
+    border: none;
+    background-color: #005DA2;
+    color: #ffff;
+}
+.remove-wifi{
+    padding-left: 25px;
+}
+.remove-wifi button{
+    height: 35px; 
+    padding: 5px;
+    width: 82px;
+    border-radius: 20px;
+    border: none;
+    background-color: #DF0109;
+    color: #ffff;
+}
+
+.total-amount-box {
+    background-color: white;
+    box-shadow: -1px -1px 6px 0px #eaeae8;
+    border-radius: 15px;
+    border-width: 5px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    padding: 10px;
+}
+.product-total{
+    display: flex;
+    line-height: 30px;
+}
+.total{
+    display: flex;
+    line-height: 30px;
+    padding-top: 10px;
+}
+.total-amount{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    padding-left: 120px;
+}
+.link-total-amount{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    padding-left: 81px;
+}
+.final-amount{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    padding-left: 181px;
+}
+.next-top{
+    width: 100%;
+    height: 50px;
+    border-radius: 35px;
+    border: none;
+    color: #005DA2;
+    background-color: #ffff;
+    border: 1px solid #005DA2;
+}
+.next-top:hover{
+    background-color: #005DA2;
+    color: #ffff;
+}
+.back-top:hover{
+    background-color: #005DA2;
+    color: #ffff;
+}
+.back-top{
+    width: 100%;
+    height: 50px;
+    border-radius: 35px;
+    border: none;
+    color: #005DA2;
+    background-color: #ffff;
+    border: 1px solid #005DA2;
+}
