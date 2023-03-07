@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.overview-section{
+    background-color: #ededed;
+    padding-bottom: 228px;
+}
+.overview-bg{
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid #F0F0F0;
+    padding: 20px;
+}
+.overview-heading{
+    display: flex;
+}
+.overview-left{
+    font-weight: 500;
+    color: #000;
+    font-size: 15px;
+}
+.overview-text{
+    color: #005DA2;
+    font-size: 12px;
+    margin-left: 12px;
+    margin-top: 2px;
+}
+.overview-right{
+    float: right;
+    color: #005DA2;
+}
+.overview-box{
+    background-color: #F2F5FF;
+    border-radius: 12px;
+}
+.overview-box h1{
+    display: flex;
+}
+.heading-over{
+    background-color: #005DA2;
+    color: #fff;
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.plan-details{
+    display: flex;
+}
+.data-text{
+    padding-left: 10px;
+    color: #000;
+}
+.data-price{
+    color: #000;
+    padding-left: 130px;
+}
+.data-text-1{
+    padding-left: 10px;
+    color: #000;
+}
+.data-price-1{
+    color: #000;
+    padding-left: 46px;
+}
+.data-text-2{
+    padding-left: 10px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    color: #005DA2;
+    padding-bottom: 15px;
+}
+.data-text-3{
+    padding-left: 10px;
+    color: #000;
+}
+.data-price-3{
+    color: #000;
+    padding-left: 95px;
+}
+
+
+
+
+
+
+
+/* --------------------Responsive css Start------------------------- */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    [className*="col-"] {
+      width: 100%;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    [className*="col-"] {
+      width: 100%;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  }
+  

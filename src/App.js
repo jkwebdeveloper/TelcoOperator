@@ -8,6 +8,12 @@ import DevicesDetail from './pages/Devices/DevicesDetail'
 import NavigationMenu from './components/NavigationMenu'
 import FixedOfficers from './pages/Fixedlineservice/FixedOfficers'
 import SelectNumber from './pages/SelectNumber'
+import SelectNumber1 from './pages/SelectNumber/SelectNumber1'
+import AccountDetails from './pages/Account-details/AccountDetails'
+import Payment from './pages/Payment/Payment'
+import ThankYou from './pages/Thankyou/ThankYou'
+import CustomerService from './pages/Customer-service/CustomerService'
+import Overview from './pages/Overview/Overview'
 
 
 function App() {
@@ -23,6 +29,12 @@ function App() {
           <Route path='/select-number' element={ <SelectNumber/> }/>
           <Route path='/fixed-line-service' element={ <FixedOfficers /> }/>
           <Route path='' element={ <NavigationMenu/> }/>
+          <Route path='/select-Number1' element={ <SelectNumber1/> } />
+          <Route path='/accountdetails' element={ <AccountDetails/> }/>
+          <Route path='/payment-method' element={ <Payment/> }/>
+          <Route path='/payment-method/payment-successful' element={ <ThankYou/> }/>
+          <Route path='/payment-method/payment-successful/CustomerService' element={ <CustomerService/> }/>
+          <Route path='/overview' element={ <Overview/> }/>
         </Routes> 
         <Footer />
       </BrowserRouter>

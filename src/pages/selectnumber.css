@@ -3,6 +3,147 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size:16px;
+  color:#555555; 
+}
+.md-stepper-horizontal {
+	display:table;
+	width:100%;
+	
+}
+span {
+    color: #000;
+}
+.md-stepper-horizontal .md-step {
+	display:table-cell;
+	position:relative;
+	padding:24px;
+    /* cursor: pointer; */
+}
+/* .md-stepper-horizontal .md-step:active {
+	border-radius: 15% / 75%;
+} */
+.md-stepper-horizontal .md-step:first-child:active {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.md-stepper-horizontal .md-step:last-child:active {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+/* .md-stepper-horizontal .md-step:hover .md-step-circle {
+	background-color:#e70000;
+    color: #FFFFFF;
+} */
+.md-stepper-horizontal .md-step:first-child .md-step-bar-left,
+.md-stepper-horizontal .md-step:last-child .md-step-bar-right {
+	display:none;
+}
+.md-stepper-horizontal .md-step .md-step-circle {
+	width:30px;
+	height:30px;
+	margin:0 auto;
+	background-color:#DDDDDD;
+	border-radius: 50%;
+	text-align: center;
+	line-height:30px;
+	font-size: 16px;
+	font-weight: 600;
+	color:#FFFFFF;
+}
+.md-stepper-horizontal .md-step .md-step-circle-1 {
+	width:30px;
+	height:30px;
+	margin:0 auto;
+	background-color:#00AE4D;
+	border-radius: 50%;
+	text-align: center;
+	line-height:30px;
+	font-size: 16px;
+	font-weight: 600;
+	color:#FFFFFF;
+}
+.md-stepper-horizontal.green .md-step.active .md-step-circle {
+	background-color:#00AE4D;
+}
+.md-stepper-horizontal.orange .md-step.active .md-step-circle {
+	background-color:#4BB836;
+}
+.md-stepper-horizontal .md-step.active .md-step-circle {
+	background-color: rgb(33,150,243);
+}
+/* .md-stepper-horizontal .md-step.done .md-step-circle:before {
+	font-family:'FontAwesome';
+	font-weight:100;
+	content: "\f00c";
+} */
+.md-stepper-horizontal .md-step.done .md-step-circle *,
+.md-stepper-horizontal .md-step.editable .md-step-circle * {
+	display:none;
+}
+.md-stepper-horizontal .md-step.editable .md-step-circle {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+/* .md-stepper-horizontal .md-step.editable .md-step-circle:before {
+	font-family:'FontAwesome';
+	font-weight:100;
+	content: "\f040";
+} */
+.md-stepper-horizontal .md-step .md-step-title {
+	margin-top:16px;
+	font-size:16px;
+	font-weight:600;
+}
+.md-stepper-horizontal .md-step .md-step-title,
+.md-stepper-horizontal .md-step .md-step-optional {
+	text-align: center;
+	color:rgba(0,0,0,.26);
+}
+.md-stepper-horizontal .md-step.active .md-step-title {
+	font-weight: 600;
+	color:rgba(0,0,0,.87);
+}
+.md-stepper-horizontal .md-step.active.done .md-step-title,
+.md-stepper-horizontal .md-step.active.editable .md-step-title {
+	font-weight:600;
+}
+.md-stepper-horizontal .md-step .md-step-optional {
+	font-size:12px;
+}
+.md-stepper-horizontal .md-step.active .md-step-optional {
+	color:rgba(0,0,0,.54);
+}
+.md-stepper-horizontal .md-step .md-step-bar-left,
+.md-stepper-horizontal .md-step .md-step-bar-right {
+	position:absolute;
+	top:36px;
+	height:1px;
+	border-top:5px solid #DDDDDD;
+}
+.md-stepper-horizontal .md-step .md-step-bar-left-1,
+.md-stepper-horizontal .md-step .md-step-bar-right-1 {
+	position:absolute;
+	top:36px;
+	height:1px;
+	border-top:5px solid #4BB836;
+}
+.md-stepper-horizontal .md-step .md-step-bar-right-1 {
+	right:0;
+	left:50%;
+	margin-left:15px;
+}
+.md-stepper-horizontal .md-step .md-step-bar-left-1 {
+	left:0;
+	right:50%;
+	margin-right:15px;
+}
+
 .select-section{
     background-color: #ededed;
     padding-bottom: 80px;
@@ -23,7 +164,9 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 85px 50px;
+    width: 80%;
+    padding: 8px;
+    padding-bottom: 30px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-box-align: center;
@@ -40,14 +183,15 @@
   
   .plans .plan {
     cursor: pointer;
-    width: 48.5%;
+    /* width: 48.5%; */
   }
   
   .plans .plan .plan-content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 30px;
+    width: 315px;
+    padding: 10px 0px 10px 10px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border: 2px solid #e1e2e7;
@@ -64,13 +208,23 @@
     margin-right: 30px;
     height: 72px;
   }
-  
+  .icon-bg-1{
+    width: 50px;
+    height: 50px;
+    background-color: #005DA2;
+    border-radius: 50%;
+  }
+.icon-bg-1 img{
+    /* padding: 10px; */
+    padding: 10px 0px 17px 15px;
+  }
   .plans .plan .plan-details span {
-    margin-bottom: 10px;
-    display: block;
-    font-size: 20px;
-    line-height: 24px;
-    color: #252f42;
+    font-size: 15px;
+    /* color: #252f42; */
+    padding: 15px;
+    padding: 15px;
+    font-weight: 500;
+    display: flex;
   }
   
   .container .title {
@@ -100,18 +254,37 @@
     width: 8px;
     background: #216fe0;
     right: 20px;
-    top: 20px;
+    top: 30px;
     border-radius: 100%;
     border: 3px solid #fff;
     -webkit-box-shadow: 0px 0px 0px 2px #0066ff;
     box-shadow: 0px 0px 0px 2px #0066ff;
   }
   
-  .plans .plan input[type="radio"]:checked + .plan-content {
-    border: 2px solid #216ee0;
-    background: #eaf1fe;
-    -webkit-transition: ease-in 0.3s;
-    -o-transition: ease-in 0.3s;
-    transition: ease-in 0.3s;
-  }
-  
+
+.type-number{
+  /* font-weight: 500; */
+  margin-left: 10px;
+  padding-top: 15px;
+  font-size: 12px;
+  color: #000;
+}
+.mobile-number{
+  margin-left: 10px;
+  width: 50%;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+  padding: 6px;
+  outline: none;
+}
+.select-seticon{
+  padding-bottom: 100px;
+}
+.select{
+  margin-left: 10px;
+  width: 50%;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+  padding: 6px;
+  outline: none;
+}

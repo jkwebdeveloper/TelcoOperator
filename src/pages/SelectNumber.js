@@ -1,81 +1,95 @@
 import React from 'react'
 import './selectnumber.css'
 import icon from '../assets/icon/Icons/mobileplan1.png'
-// import img5 from '../../assets/icon/Icons/r6.png'
+import icon2 from '../assets/icon/Icons/new-number.png'
+import { Link } from 'react-router-dom';
 
 const SelectNumber = () => {
   return (
     <>
       <div className="select-section">
-        <div class="md-stepper-horizontal orange">
-          <div class="md-step active ">
-            <div class="md-step-circle">
+        <div className="md-stepper-horizontal orange">
+          <div className="md-step active ">
+            <div className="md-step-circle">
               <span>1</span>
             </div>
-            <div class="md-step-title">Package</div>
-            <div class="md-step-bar-left"></div>
-            <div class="md-step-bar-right"></div>
+            <div className="md-step-title">Package</div>
+            <div className="md-step-bar-left"></div>
+            <div className="md-step-bar-right-1"></div>
           </div>
-          <div class="md-step">
-            <div class="md-step-circle">
+          <div className="md-step">
+            <div className="md-step-circle-1">
               <span>2</span>
             </div>
-            <div class="md-step-title">Number</div>
-            {/* <div class="md-step-optional">Optional</div> */}
-            <div class="md-step-bar-left"></div>
-            <div class="md-step-bar-right"></div>
+            <div className="md-step-title">Number</div>
+            {/* <div className="md-step-optional">Optional</div> */}
+            <div className="md-step-bar-left-1"></div>
+            <div className="md-step-bar-right"></div>
           </div>
-          <div class="md-step">
-            <div class="md-step-circle">
+          <div className="md-step">
+            <div className="md-step-circle">
               <span>3</span>
             </div>
-            <div class="md-step-title">Personal Details</div>
-            <div class="md-step-bar-left"></div>
-            <div class="md-step-bar-right"></div>
+            <div className="md-step-title">Personal Details</div>
+            <div className="md-step-bar-left"></div>
+            <div className="md-step-bar-right"></div>
           </div>
-          <div class="md-step">
-            <div class="md-step-circle">
+          <div className="md-step">
+            <div className="md-step-circle">
               <span>4</span>
             </div>
-            <div class="md-step-title">Payment</div>
-            <div class="md-step-bar-left"></div>
-            <div class="md-step-bar-right"></div>
+            <div className="md-step-title">Payment</div>
+            <div className="md-step-bar-left"></div>
+            <div className="md-step-bar-right"></div>
           </div>
         </div>
         <div className="container">
           <div className="row">
             <div className="col-9">
-              <div className="select-bg">
-                <div class="plans">
-                  <div class="title">Choose a pricing plan</div>
-                  <label class="plan basic-plan" for="basic">
-                    <input checked type="radio" name="plan" id="basic" />
-                    <div class="plan-content">
-                      <img
-                        loading="lazy"
-                        src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/life-saver-img.svg"
-                        alt=""
-                      />
-                      <div class="plan-details">
-                        <span>Basic</span>
-                        <p>
-                          For smaller business, with simple salaries and pay
-                          schedules.
-                        </p>
+              <div className="select-bg"> 
+                <div className="plans">
+                  <div className="title">Select phone number</div>
+                  <label className="plan basic-plan my-3" htmlFor="basic">
+                    <input onChange type="radio" name="plan" id="basic" />
+                    <div className="plan-content">
+                        <div className="icon-bg-1">
+                            <img src={ icon } alt="icon" style={{ height: '55px' }}/> 
+                        </div>
+                      <div className="plan-details">
+                        <span>Keep existing number</span>
                       </div>
                     </div>
                   </label>
 
-                  <label class="plan complete-plan" for="complete">
-                    <input type="radio" id="complete" name="plan" />
-                    <div class="plan-content">
-                      <img
-                        src={ icon }
-                        alt="" style={{backgroundColor: "#005DA2", width: "100px", height: "100px" }}
-                      />
-                        <span>Complete</span>
-                    </div>
-                  </label>
+                  <Link to="/select-Number1">
+                    <label className="plan complete-plan" htmlFor="complete">
+                      <input type="radio" id="complete" name="plan" />
+                      <div class="plan-content">
+                          <div className="icon-bg-1">
+                              <img src={ icon2 } alt="icon" style={{ height: '55px' }}/> 
+                          </div>
+                          <div className="plan-details">
+                              <span>Select new number</span>
+                          </div>
+                      </div>
+                    </label>
+                  </Link>
+                </div>
+
+                {/* <p className="">Existing number</p> */}
+                <div className="heading">
+                    <span>Existing number</span>
+                </div>
+                <p className="type-number">Current mobile number</p>
+                <input
+                  type="text" className="mobile-number"
+                  placeholder="ex. +1 124567894"
+                />
+                <div className="select-seticon">
+                  <p className="type-number">Current mobile operator</p>
+                  <input type="text" className="select" placeholder="Select" />
+                  <p className="type-number">Current mobile operator</p>
+                  <input type="text" className="select" placeholder="Select" />
                 </div>
               </div>
             </div>

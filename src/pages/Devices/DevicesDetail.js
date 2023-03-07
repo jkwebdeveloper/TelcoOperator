@@ -54,7 +54,7 @@ const DevicesDetail = () => {
                         <p className="disc-heading">Specification</p>
                         <div className="line-1"></div>
                         <div className="row">
-                          <div className="col-6">
+                          <div className="col-md-6">
                             <p className="spec-text">Model Name</p>
                             <p className="spec-text">Color</p>
                             <p className="spec-text">SIM Type</p>
@@ -69,7 +69,7 @@ const DevicesDetail = () => {
                             <p className="spec-text">Network Type</p>
                           </div>
 
-                          <div className=" col-6">
+                          <div className=" col-md-6">
                             <p className="spec-size">iPhone 14 Pro Max</p>
                             <p className="spec-size">Silver</p>
                             <p className="spec-size">Dual Sim(Nano + eSIM)</p>
@@ -140,8 +140,8 @@ const DevicesDetail = () => {
                               <button className="Add-next">Add and Next</button>
                             </Link>
                           </div>
-                          <div className="col-6 md-12 sm-12">
-                            <button className="back">Back</button>
+                          <div className="col-6">
+                            <button className="back my-3">Back</button>
                           </div>
                         </div>
 

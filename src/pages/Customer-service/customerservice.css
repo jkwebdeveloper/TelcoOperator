@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.customer-section{
+  background-color: #ededed;
+}
+.banner img {
+  width: 100%;
+  height: 300px;
+}
+/* .profilebox {
+  width: 25%;
+  height: 100px;
+  background-color: #1a90e8;
+  border: 1px solid #096cb6;
+  position: absolute;
+  top: 19%;
+  border-radius: 12px;
+  padding: 20px 0px 20px 15px;
+  text-align: start;
+} */
+.profilebox{
+  width: 22%;
+  padding: 15px 0px 13px 15px;
+  background-color: #166dae;
+  border: 2px solid #1A90E8;
+  border-radius: 10px;
+  text-align: start;
+  position: absolute;
+  top: 19%;
+  color: #fff;
+}
+.user-icon{
+  display: flex;
+}
+.user-icon img{
+  padding-left: 10px;
+}
+/* .user-icon img {
+  width: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  padding: 10px;
+  padding-top: 28px;
+  display: flex;
+} */
+.user-name{
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  padding-left: 20px;
+}
+.user-number{
+  margin-left: 60px;
+  margin-top: -13px;
+  font-size: 12px;
+}
+.boxes {
+  position: absolute;
+  top: 40%;
+  background-color: #ffff;
+  border: 1px solid #d7d7d7;
+  border-radius: 8px;
+  width: 27%;
+  padding: 10px;
+  height: 432px;
+}
+.boxes-title{
+  display: flex;
+}
+.Sub-heading{
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+}
+.button-new{
+  width: 100px;
+  justify-content: center;
+  border-radius: 35px;
+  background-color: #005DA2;
+  font-size: 13px;
+  border: none;
+  color: #fff;
+  padding: 7px;
+  margin-left: 138px;
+}
+.swish-boxes{
+  background-color: #E8F5FF;
+  border: 1px solid #8BCBFD;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+.swish-content{
+  font-size: 13px;
+  color: #000;
+  font-weight: 400;
+  margin-top: 4px;
+}
+.swish-boxes-2{
+  background-color: #E8F5FF;
+  border: 1px solid #8BCBFD;
+  margin-top: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+.swish-content-2{
+  font-size: 50px;
+  color: #000;
+  font-weight: 700;
+}
+.prepaid-content{
+  font-size: 13px;
+  color: #000;
+  font-weight: 400;
+  line-height: 0px;
+  padding-bottom: 15px;
+}
+.swish-boxes-3{
+  background-color: #ededed;
+  border: 1px solid #DBDBDB;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+.boxes-contant{
+  display: flex;
+}
+.swish-content-right{
+  padding-left: 140px;
+  font-size: 12px;
+  color: #000;
+  font-weight: 400;
+  margin-top: 4px;
+}
+.text-dot-2{
+  height: 5px;
+  width: 5px;
+  background-color: #005DA2;
+  border-radius: 50px;
+  /* position: relative; */
+  float: right;
+  margin-right: 8px;
+}
+.text-dot{
+  height: 5px;
+  width: 5px;
+  background-color: #D9D9D9;
+  border-radius: 50px;
+  /* position: relative; */
+  float: right;
+  margin-right: 8px;
+}
+.lorem{
+  color: #606060;
+  font-size: 15px;
+}
+.Subscriptiondetail-section {
+  padding: 15px;
+  background-color: #fff;
+  margin-top: 40rem;
+  border: 1px solid #d7d7d7;
+  border-radius: 8px;
+}
+.detail-bg{
+  background-color: #F2F5FF;
+  display: flex;
+  border-radius: 12px;
+}
+.left-title-1{
+  background-color: #005DA2;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  padding: 30px;
+  margin-bottom: 0px;
+  border-radius: 12px 0px 0px 12px;
+}
+.left-title-2{
+  background-color: #005DA2;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  padding: 27px;
+  margin-bottom: 0px;
+  border-radius: 12px 0px 0px 12px;
+}
+.middle-section{
+  display: flex;
+  padding: 18px 23px 0px 40px;
+}
+.middle-text{
+  color: #616161;
+  font-size: 12px;
+}
+.middle{
+  margin-top: -6px;
+  color: #000000;
+  font-size: 13px;
+}
+.right{
+  margin-left: 100px;
+  padding: 20px;
+}
+.view{
+  font-size: 13px;
+  color: #000;
+  text-decoration-line: underline;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.change-btn{
+  width: 100px;
+  padding: 6px;
+  border-radius: 20px;
+  border: none;
+  /* background-color: #005DA2; */
+  color: #005DA2;
+  font-weight: 500;
+  border: 1px solid #005DA2;
+}
+.addbtn{
+  width: 100px;
+  padding: 6px;
+  border-radius: 20px;
+  border: none;
+  background-color: #005DA2;
+  color: #fff;
+}
+.suspend{
+  width: 100px;
+  padding: 6px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ED1C24;
+  color: #fff;
+}
+.resume{
+  width: 100px;
+  padding: 6px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4BB836;
+  color: #fff;
+}
+.service-section{
+  padding: 15px;
+    background-color: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 8px;
+}
+.Create-right{
+  float: right;
+  margin-top: -32px;
+  color: #000;
+}
+.customer-detail-bg{
+  background-color: #F2F5FF;
+  border-radius: 12px;
+}
+.customer-detail-bg-1{
+  border: 1px solid #DCDCDC;
+  border-radius: 12px;
+}
+.customer-detail{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+.internet{
+  margin-right: 10px;
+}
+.customer-text{
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+/* --------------------Responsive css Start------------------------- */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  [className*="col-"] {
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  [className*="col-"] {
+    width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

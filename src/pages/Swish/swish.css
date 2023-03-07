@@ -115,14 +115,30 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	/* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
 .item{
     display: flex;
 }
+    .add{
+        width: 100%;
+        padding: 10px;
+        margin-top: 0px;
+    }
+    .add-btn{
+        width: 106%;
+        padding: 10px;
+        margin-top: 0px;
+        margin-right: -23px;
+    }
+    .swish-section{
+        margin-top: 40px;
+    }
+    .swish-box{
+        padding-bottom: 20px;
+    }
+    .swish-card{
+        padding-bottom: 20px;
+    }
     
-  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -132,7 +148,7 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    
+   
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

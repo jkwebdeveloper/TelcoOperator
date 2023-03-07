@@ -17,23 +17,20 @@ const Header = () => {
       <div className="header">
         <div className="container">
             <div className="row">
-                <div className="col-6">
+                <div className="col-md-6">
                 <Link to="/">
-                    <img src={logo} alt="logo" />
+                    <img src={logo} alt="logo" style={{paddingTop:'5px'}}/>
                 </Link>
                 </div>
-                <div className="col-6">
+                <div className="col-md-6">
+                        {/* <button className='btn-top'>Log Out</button> */}
+                        <button className='btn-top'>Log In</button>
                     <div className="nav-list">
+                        {/* <li><a href="#">Activate SIM</a></li> */}
                         <li><a href="#">Shop</a></li>
                         <li><a href="#">Explore</a></li>
                         <li><a href="#">Help</a></li>
                         <li><FiShoppingCart/></li>
-                        <li><button className='btn-top'>login</button></li>
-                        {/* <Link to="/search">Shop</Link>
-                        <Link to="/search">Shop</Link>
-                        <Link to="/search">Shop</Link> */}
-                        
-                         
                     </div>
                 </div>
             </div>

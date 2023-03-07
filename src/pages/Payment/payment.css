@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.payment-bg {
+    background-color: white;
+    box-shadow: -1px -1px 6px 0px #eaeae8;
+    border-radius: 8px;
+    border-width: 5px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.details-box-1 {
+    border: 1px solid #d2cccc;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.order-heading{
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #000;
+}
+.heading-dec{
+    margin-left: 10px;
+    font-size: 14px;
+    color: #737373;
+    line-height: 7px;
+    padding-bottom: 15px;
+}
+.input-title{
+    margin-left: 10px;
+    padding-top: 15px;
+    font-size: 16px;
+    color: #000;
+}
+.card-title{
+    background-color: #F4F4F4;
+    color: #000000;
+    padding: 15px 15px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+.pay{
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 11px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #005DA2;
+    color: #fff;
+  }
+  .credit-btn{
+    justify-content: center;
+  }
+.center{
+    width: 100%;
+    padding: 20px 0px 20px 15px;
+    background-color: #fff;
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    text-align: start;
+}
+.center img{
+    padding-right: 18px;
+}
+.center:hover{
+    border: 1px solid #005DA2;
+    box-shadow: -1px -1px 6px 0px #E6E6E6;
+}
+
+
+
+
+
+
+
+
+/* Responsive css Start */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	/* For mobile phones: */
+  [className*="col-"] {
+    width: 100%;
+  }
+
+    
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

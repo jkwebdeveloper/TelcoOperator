@@ -1,16 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './totalamount.css'
 
 
-const TotalAmount = () => {
+const TotalAmount = () => { 
   return (
     <div className='amount-section'>
       <div className="row">
-        <div className="col-6">
+        <div className="col-md-6">
           <p className='data-amount'>Swish 3</p>
           <p className='data-amount'>Swish 200</p>
         </div>
-        <div className="col-6">
+        <div className="col-md-6">
           <div className="price">
             <p>£30.00</p>
             <p>£40.00</p>
@@ -25,8 +26,10 @@ const TotalAmount = () => {
             <p>£70.00</p>
           </div>
         </div>
-        <button className='amount-btn-top my-2'>Next</button>
-        <button className='amount-btn'>Back</button>
+        <Link to="/select-number">
+                        <button className='next-top my-4'>Next</button>
+                    </Link>
+                    <button className='back-top'>Back</button>
       </div>
     </div>
   )

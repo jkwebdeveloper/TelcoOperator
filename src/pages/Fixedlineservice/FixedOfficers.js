@@ -14,12 +14,12 @@ const FixedOfficers = () => {
   return (
     <>
       <div className="hero-section-bg">
-        <div className="container">
           <div className="row">
             <div className="col-12">
               <NavigationMenu />
             </div>
           </div>
+        <div className="container">
           <div className="row">
             <div className="col-2">
               <div className="filter-section">

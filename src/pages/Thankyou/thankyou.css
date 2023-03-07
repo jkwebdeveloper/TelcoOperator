@@ -3,81 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header{
-    padding: 10px;
-    box-shadow: 0px 4px 8px 0px #eaeae8;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-.header-Top{
-    background-color: #004070;
-    padding: 3px;
-}
-.content{
-    /* font-family: SF Pro Text; */
-    text-align: right;
-    color: #FFFFFF;
-    /* line-height: 28px; */
-    font-size: 16px;
-    padding-top: 5px;
-}
-.nav-list{
-    display: flex;
-    float: right;
-}
-.nav-list li{
-  margin-right: 30px;
-  margin-top: 8px;
-  list-style-type: none;
-}
-.btn-top{
+.thankyou-section {
+    text-align: center;
+    padding: 40px 0;
+    background: #ededed;
+    padding: 90px 0px 160px;
+  }
+  .thankyou-heading{
+    font-weight: 500;
+    margin-left: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #000;
+  }
+  .thankyou-dec{
+    color: #737373;
+  }
+  .thankyou-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px #C8D0D8;
+    display: inline-block;
+    margin: 0 auto;
+    width: 400px;
+  }
+.continue-btn{
     width: 120px;
     padding: 8px;
     border-radius: 20px;
+    margin: 11px;
+    margin-bottom: 20px;
     border: none;
     background-color: #005DA2;
     color: #fff;
-    float: right;
 }
 
 
 /* Responsive css Start */
 
-*{
-	box-sizing: border-box;
-}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	/* For mobile phones: */
+  [className*="col-"] {
+    width: 100%;
+  }
+    .thankyou-box{
+        width: 96%;
+    }
+    
   
-  .nav-list{
-    display: none;
-  }
-  .logo{
-    width: 50%;
-  }
-  .content{
-    font-size: 12px;
-    text-align: center;
-  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+    [className*="col-"] {
+        width: 100%;
+      }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  
+    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

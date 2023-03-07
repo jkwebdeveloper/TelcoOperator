@@ -14,6 +14,7 @@ html, body {
     border-width: 5px;
     border: solid 1px #d7d7d7;
     padding-bottom: 23px;
+    padding: 10px
 }
 .data-amount{
     font-size: 13px;
@@ -60,19 +61,36 @@ html, body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	/* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
+  
+  .amount-btn-top{
+    width: 88%;
+    padding: 10px;
+  }
+  .amount-btn{
+    width: 88%;
+    padding: 10px;
+  }
+  .amount-section{
+    margin-top: 40px;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    
+    /* .filter-section{
+        display: none;
+    } */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     
+      .nav-link{
+        display: none;
+      }
+    /* .filter-section{
+        display: none;
+    } */
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
