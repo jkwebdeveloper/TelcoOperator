@@ -9,18 +9,18 @@ const Swish = () => {
       <p className="heading">Mobile Plans</p>
       <div className="line-1"></div>
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-lg-4 col-md-12 col-sm-12">
           <div className="swish-box">
             <p className="heading-swish">Swish 2</p>
             <img src={sim} alt="" style={{ height: '55px' }} />
             <div className="row">
-              <div className="col-8">
+              <div className="col-lg-8 col-md-6 col-sm-6">
                 <p className="item">Data</p>
                 <p className="item">National Voice</p>
                 <p className="item">SMS</p>
                 <p className="item">International Voice</p>
               </div>
-              <div className="col-4">
+              <div className="col-lg-4 col-md-6 col-sm-6">
                 <p className="data-plan">2 GB</p>
                 <p className="data-plan">30 Min</p>
                 <p className="data-plan">-</p>
@@ -42,13 +42,13 @@ const Swish = () => {
             <p className="heading-swish">Swish 2</p>
             <img src={sim} alt="" style={{ height: '55px' }} />
             <div className="row">
-              <div className="col-8">
+              <div className="col-lg-8 col-md-6 col-sm-6">
                 <p className="item">Data</p>
                 <p className="item">National Voice</p>
                 <p className="item">SMS</p>
                 <p className="item">International Voice</p>
               </div>
-              <div className="col-4">
+              <div className="col-lg-4 col-md-6 col-sm-6">
                 <p className="data-plan">2 GB</p>
                 <p className="data-plan">30 Min</p>
                 <p className="data-plan">-</p>
@@ -67,18 +67,18 @@ const Swish = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-lg-4 col-md-12 col-sm-1">
           <div className="swish-box">
             <p className="heading-swish">Swish 2</p>
             <img src={sim} alt="" style={{ height: '55px' }} />
             <div className="row">
-              <div className="col-8">
+              <div className="col-lg-8 col-md-6 col-sm-6">
                 <p className="item">Data</p>
                 <p className="item">National Voice</p>
                 <p className="item">SMS</p>
                 <p className="item">International Voice</p>
               </div>
-              <div className="col-4">
+              <div className="col-lg-4 col-md-6 col-sm-6">
                 <p className="data-plan">2 GB</p>
                 <p className="data-plan">30 Min</p>
                 <p className="data-plan">-</p>

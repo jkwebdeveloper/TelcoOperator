@@ -27,10 +27,10 @@ const Header = () => {
                         <button className='btn-top'>Log In</button>
                     <div className="nav-list">
                         {/* <li><a href="#">Activate SIM</a></li> */}
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">Explore</a></li>
-                        <li><a href="#">Help</a></li>
-                        <li><FiShoppingCart/></li>
+                        <Link><p className='nav-item'>Shop</p></Link>
+                        <Link><p className='nav-item'>Explore</p></Link>
+                        <Link><p className='nav-item'>Help</p></Link>
+                        <Link><p className='nav-item'><FiShoppingCart/></p></Link>
                     </div>
                 </div>
             </div>

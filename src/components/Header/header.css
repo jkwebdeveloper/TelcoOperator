@@ -26,11 +26,12 @@ a{
 .nav-list{
     display: flex;
     float: right;
+    text-decoration: none;
 }
-.nav-list li{
+.nav-list .nav-item{
   margin-right: 30px;
   margin-top: 8px;
-  list-style-type: none;
+  font-size: 16px;
 }
 .btn-top{
     width: 120px;

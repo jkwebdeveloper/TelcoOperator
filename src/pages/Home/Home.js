@@ -16,7 +16,7 @@ const Home = () => {
           <h2>Title Here</h2>
         </div>
           <div className="row">
-            <div className="col-4">
+            <div className="col-md-4">
                 <Link to="mobile-plans">
                     <div className='box'>
                         <div className="icon-bg">
@@ -26,7 +26,7 @@ const Home = () => {
                     </div>
                 </Link>
             </div>
-            <div className="col-4">
+            <div className="col-md-4">
               <Link to="devices">
               <div className='box'>
                         <div className="icon-bg">
@@ -36,7 +36,7 @@ const Home = () => {
                     </div>
               </Link>
             </div>
-            <div className="col-4">
+            <div className="col-md-4">
               <Link to="fixed-line-service">
                 <div className='box'>
                     <div className="icon-bg">
