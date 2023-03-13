@@ -44,7 +44,7 @@ const AccountDetails = () => {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-9">
+            <div className="col-lg-9 col-md-12">
               <div className="account-details-bg">
                 <div className="details-box">
                   <p className="account-title">Account details</p>
@@ -76,7 +76,7 @@ const AccountDetails = () => {
                     <div className="details-box">
                       <p className="account-title">ID details</p>
                       <div className="row">
-                        <div className="col-6">
+                        <div className="col-lg-6 col-md-12">
                           <div className="input-box-2">
                             <p className="heading">Date Of Birth</p>
                             <input
@@ -99,7 +99,7 @@ const AccountDetails = () => {
                           </div>
                         </div>
 
-                        <div className="col-6">
+                        <div className="col-lg-6 col-md-12">
                           <div className="input-box-2">
                             <p className="heading">Personal ID</p>
                             <input
@@ -123,14 +123,14 @@ const AccountDetails = () => {
                         </div>
                       </div>
                       <div className="row">
-                        <div className="col-6">
+                        <div className="col-lg-6 col-md-12">
                           <p className="heading">ID Document</p>
                           <p className="file-size">
                             File size limit of: 15 MB. JPG, PDF, TIFF, PNG, DOCX
                             filesare accepted
                           </p>
                         </div>
-                        <div className="col-6">
+                        <div className="col-lg-6 col-md-12">
                           <button className="upload">
                             <MdFileUpload /> Upload
                           </button>
@@ -140,7 +140,7 @@ const AccountDetails = () => {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-12">
+                  <div className="col-lg-12 ">
                     <div className="details-box">
                       <p className="account-title">Address details</p>
                       <div className="row">
@@ -150,7 +150,7 @@ const AccountDetails = () => {
                           className="type-here-1"
                           placeholder="Select"
                         />
-                        <div className="col-6">
+                        <div className="col-lg-6 col-md-12">
                           <div className="input-box-2">
                             <p className="heading">Country</p>
                             <input
@@ -167,7 +167,7 @@ const AccountDetails = () => {
                           </div>
                         </div>
 
-                        <div className="col-6">
+                        <div className="col-lg-6 col-md-12">
                           <div className="input-box-2">
                             <p className="heading">District</p>
                             <input
@@ -185,14 +185,14 @@ const AccountDetails = () => {
                         </div>
                       </div>
                       <div className="row">
-                        <div className="col-6">
+                        <div className="col-lg-6 col-md-12">
                           <p className="heading">Proof of address</p>
                           <p className="file-size">
                             File size limit of: 15 MB. JPG, PDF, TIFF, PNG, DOCX
                             filesare accepted
                           </p>
                         </div>
-                        <div className="col-6">
+                        <div className="col-lg-6 col-md-12">
                           <button className="upload">
                             <MdFileUpload /> Upload
                           </button>
@@ -203,7 +203,7 @@ const AccountDetails = () => {
                 </div>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-md-12">
               <div className="total-amount-box">
                 <div className="product-total">
                   <p className="modal-name">Mega HD pack</p>

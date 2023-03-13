@@ -30,6 +30,7 @@
 .overview-right{
     float: right;
     color: #005DA2;
+    font-size: 15px;
 }
 .overview-box{
     background-color: #F2F5FF;
@@ -52,18 +53,22 @@
 .data-text{
     padding-left: 10px;
     color: #000;
+    font-size: 12px;
 }
 .data-price{
     color: #000;
     padding-left: 130px;
+    font-size: 12px;
 }
 .data-text-1{
     padding-left: 10px;
     color: #000;
+    font-size: 10px;
 }
 .data-price-1{
     color: #000;
     padding-left: 46px;
+    font-size: 12px;
 }
 .data-text-2{
     padding-left: 10px;
@@ -76,10 +81,12 @@
 .data-text-3{
     padding-left: 10px;
     color: #000;
+    font-size: 10px;
 }
 .data-price-3{
     color: #000;
     padding-left: 95px;
+    font-size: 12px;
 }
 
 
@@ -93,16 +100,14 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     /* For mobile phones: */
-    [className*="col-"] {
+    /* [className*="col-"] {
       width: 100%;
-    }
+    } */
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
-    [className*="col-"] {
-      width: 100%;
-    }
+    
   }
   
   /* Medium devices (landscape tablets, 768px and up) */

@@ -20,7 +20,7 @@ const Devices = () => {
       <div className="container">
         <NavigationMenu/>
         <div className="row">
-          <div className="col-2 md-12 sm-12">
+          <div className="col-2 ">
             <div className="filter-section">
               <p className="heading">Filter</p>
               <div className="line-1"></div>
@@ -52,13 +52,13 @@ const Devices = () => {
             </div>
           </div>
 
-          <div className="col-10 md-6 sm-12">
+          <div className="col-lg-10 col-md-12 col-sm-12">
             <div className="devices-product">
               {/* Mobile Plans start */}
               <p className="heading">Mobile Plans</p>
               <div className="line-1"></div>
               <div className="row">
-                <div className="col-3">
+                <div className="col-lg-3 col-md-6 col-sm-12">
                     <button className="product-box">
                         <img src={iphoneProPurple} alt="" style={{ height: '130px' }}/>
                         <p className='product-name'>Apple</p>
@@ -72,7 +72,7 @@ const Devices = () => {
                     </button>
                 </div>
 
-                <div className="col-3">
+                <div className="col-lg-3 col-md-6 col-sm-12">
                     <Link to="/device-details">
                         <button className="product-box">
                             <img src={iphoneProSilver} alt="" style={{ height: '130px' }}/>
@@ -88,7 +88,7 @@ const Devices = () => {
                     </Link>
                 </div>
 
-                <div className="col-3">
+                <div className="col-lg-3 col-md-6 col-sm-12">
                     <button className="product-box">
                         <img src={iphoneProBlack} alt="" style={{ height: '130px' }}/>
                         <p className='product-name'>Apple</p>
@@ -102,7 +102,7 @@ const Devices = () => {
                     </button>
                 </div>
 
-                <div className="col-3">
+                <div className="col-lg-3 col-md-6 col-sm-12">
                     <button className="product-box">
                         <img src={iphoneProGold} alt="" style={{ height: '130px' }}/>
                         <p className='product-name'>Apple</p>
@@ -116,7 +116,7 @@ const Devices = () => {
                     </button>
                 </div>
 
-                <div className="col-3">
+                <div className="col-lg-3 col-md-6 col-sm-12">
                     <button className="product-box">
                         <img src={iphoneProGold} alt="" style={{ height: '130px' }}/>
                         <p className='product-name'>Apple</p>
@@ -130,7 +130,7 @@ const Devices = () => {
                     </button>
                 </div>
 
-                <div className="col-3">
+                <div className="col-lg-3 col-md-6 col-sm-12">
                     <button className="product-box">
                         <img src={iphoneProSilver} alt="" style={{ height: '130px' }}/>
                         <p className='product-name'>Apple</p>
@@ -144,7 +144,7 @@ const Devices = () => {
                     </button>
                 </div>
 
-                <div className="col-3">
+                <div className="col-lg-3 col-md-6 col-sm-12">
                     <button className="product-box">
                         <img src={iphoneProPurple} alt="" style={{ height: '130px' }}/>
                         <p className='product-name'>Apple</p>
@@ -158,7 +158,7 @@ const Devices = () => {
                     </button>
                 </div>
 
-                <div className="col-3">
+                <div className="col-lg-3 col-md-6 col-sm-12">
                     <button className="product-box">
                         <img src={iphoneProMidnight} alt="" style={{ height: '130px' }}/>
                         <p className='product-name'>Apple</p>
@@ -172,7 +172,7 @@ const Devices = () => {
                     </button>
                 </div>
 
-                <div className="col-3">
+                <div className="col-lg-3 col-md-6 col-sm-12">
                     <button className="product-box">
                         <img src={iphoneProBlue} alt="" style={{ height: '130px' }}/>
                         <p className='product-name'>Apple</p>
@@ -186,7 +186,7 @@ const Devices = () => {
                     </button>
                 </div>
 
-                <div className="col-3">
+                <div className="col-lg-3 col-md-6 col-sm-12">
                     <button className="product-box">
                         <img src={iphoneProMidnight} alt="" style={{ height: '130px' }}/>
                         <p className='product-name'>Apple</p>
@@ -200,7 +200,7 @@ const Devices = () => {
                     </button>
                 </div>
 
-                <div className="col-3">
+                <div className="col-lg-3 col-md-6 col-sm-12">
                     <button className="product-box">
                         <img src={iphoneProStarlight} alt="" style={{ height: '130px' }}/>
                         <p className='product-name'>Apple</p>
@@ -214,7 +214,7 @@ const Devices = () => {
                     </button>
                 </div>
 
-                <div className="col-3">
+                <div className="col-lg-3 col-md-6 col-sm-12">
                     <button className="product-box">
                         <img src={iphoneProSilver} alt="" style={{ height: '130px' }}/>
                         <p className='product-name'>Apple</p>
@@ -229,10 +229,10 @@ const Devices = () => {
                 </div>
               </div>
                 <div className='row'>
-                    <div className="col-4 md-12">
+                    <div className="col-lg-4 col-md-12">
                         <p className='showing-data'>Showing 12 from 46 data</p>
                     </div>
-                    <div className="col-8 sm-12 md-12">
+                    <div className="col-lg-8 col-sm-12 col-md-12">
                         <div className="pagination">
                             <ul>
                                 <li className='link'><HiChevronDoubleLeft/></li>

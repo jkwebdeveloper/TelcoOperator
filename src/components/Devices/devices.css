@@ -137,11 +137,19 @@ ul li{
   .pagination ul {
     margin: -8px 0px 0px -32px;
 }
+.filter-section{
+    display: none;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    
+    /* .filter-section{
+        display: none;
+    } */
+    .pagination {
+        justify-content: center;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

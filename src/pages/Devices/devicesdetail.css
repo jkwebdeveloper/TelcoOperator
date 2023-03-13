@@ -105,6 +105,7 @@
     background-color: #005DA2;
     padding: 15px;
     color: #fff;
+    margin-top: 7px;
     font-size: 16px;
 }
 .Add-next:hover{
@@ -226,65 +227,42 @@
 
 
 
-
-/* Responsive css Start */
-
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-	/* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-  
-  .disc{
-    width: 100%;
-  }
-  .devices-show img{
-    margin: 13px 7px 10px 0px;
-  }
-  .devices-show{
-    text-align: center;
-    padding-top: 20px;
-  }
-  .product-img{
-    text-align: center;
-  }
-  .Add-next-btn{
-    width: 100%;
-  }
-  .back-btn{
-    width: 100%;
-    padding-top: 10px;
-    /* border-radius: 35px; */
-    /* padding: 15px; */
-    /* background-color: #fff;
-    border: 1px solid #005DA2;
-    color: #005DA2; */
-    /* margin-left: 7px; */
-    /* font-size: 16px; */
-  }
-  .radio-btn{
-    display: grid;
-}
-  
+    .product-img{
+        text-align: center;
+    }
+    .devices-show{
+        text-align: center;
+        /* margin: 15px 29px 10px 49px; */
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    /* [className*="col-"] {
-        width: 100%;
-      } */
+    .product-img{
+        text-align: center;
+        
+    }
+    .devices-show{
+        text-align: center;
+        /* margin: 15px 29px 10px 49px; */
+    }
+    /* .devices-show img{
+        margin: 14px 25px 10px 0px;
+        border: 1px solid #E6E6E6;
+        padding: 3px;
+    } */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

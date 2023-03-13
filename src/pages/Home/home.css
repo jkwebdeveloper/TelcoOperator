@@ -60,12 +60,14 @@ html, body {
   padding: 10px;
 }
 .box h2{
-  /* margin-left: 188px; */
   margin-top: 50px;
   margin-left: 20px;
+  color: #000;
 }
 
-/* Responsive css Start */
+
+
+/* ---------------- Responsive css Start ----------------- */
 
 
 
@@ -76,14 +78,21 @@ html, body {
     display: none;
    }
   .box h2{
-    font-size: 15px;
+    font-size: 13px;
   }
   .heading h2{
     text-align: center;
   }
-  .btn-top{
-    margin-top: -35px;
+  .box{
+    justify-content: left;
+
   }
+  .icon-bg{
+    width: 50px;
+    height: 50px;
+    margin-left: 70px;
+  }
+  
 
 }
 
@@ -99,36 +108,39 @@ html, body {
     width: 100%;
     display: flex;
    }
+   .box h2{
+    font-size: 13px;
+   }
+   .icon-bg{
+    width: 50px;
+    height: 50px;
+  }
+  .icon-bg img{
+    padding: auto;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  
-   
-   /* .nav-list{
-    display: none;
-   } */
-   /* .icon-bg{
-    margin-left: 18px;
+  .box h2{
+    font-size: 13px;
+   }
+   .icon-bg{
     width: 50px;
     height: 50px;
-   }
-   .box h2{
-    margin-left: 95px;
-    font-size: 15px;
-    padding-top: 46px;
-   } */
-   /* .box .icon-bg img{
-    height: 49px;
-   } */
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+  .box h2{
+    font-size: 16px;
+   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+  .box h2{
+    font-size: 16px;
+   }
 }

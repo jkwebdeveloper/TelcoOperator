@@ -3,9 +3,10 @@ import './navigationmenu.css'
 
 const NavigationMenu = () => {
   return (
-    <div className="container">
+    <>
+    {/* // <div className="container"> */}
       <div className="row">
-        <div className="col-12 col-md-12 col-sm-12">
+        <div className="col-12">
           <div className="md-stepper-horizontal orange">
             <div className="md-step active ">
               <div className="md-step-circle">
@@ -43,7 +44,8 @@ const NavigationMenu = () => {
           </div>
         </div>
       </div>
-    </div>
+    {/* </div> */}
+    </>
   )
 }
 

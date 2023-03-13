@@ -45,7 +45,7 @@ const SelectNumber1 = () => {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-9">
+            <div className="col-lg-9 col-md-12">
                 <div className="select-bg">
                     <div className="plans">
                         <div className="title">Select phone number</div>
@@ -100,7 +100,7 @@ const SelectNumber1 = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-md-12">
               <div className="total-amount-box">
                 <div className="product-total">
                   <p className="modal-name">Mega HD pack</p>

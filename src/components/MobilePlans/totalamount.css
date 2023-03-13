@@ -76,10 +76,10 @@ html, body {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    /* .filter-section{
+@media only screen and (max-width: 600px) {
+    .filter-section{
         display: none;
-    } */
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

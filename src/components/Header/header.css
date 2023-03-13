@@ -24,14 +24,28 @@ a{
     padding-top: 5px;
 }
 .nav-list{
-    display: flex;
     float: right;
-    text-decoration: none;
+    margin-top: 10px;
 }
-.nav-list .nav-item{
-  margin-right: 30px;
-  margin-top: 8px;
+.nav-list p{
+  text-decoration: none;
+    color: #000;
+}
+.nav-list ul li a{
+  text-decoration: none;
   font-size: 16px;
+  color: #000;
+}
+.toggle-menu{
+  font-size: 16px;
+  background-color: none;
+  border: none;
+  list-style: none;
+  float: right;
+}
+.toggle-menu a{
+  color: #000;
+  font-size: 20px;
 }
 .btn-top{
     width: 120px;
@@ -41,22 +55,27 @@ a{
     background-color: #005DA2;
     color: #fff;
     float: right;
+    font-size: 16px;
 }
 
 
-/* Responsive css Start */
-
-*{
-	box-sizing: border-box;
-}
+/* --------------- Responsive css Start ----------------- */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	/* For mobile phones: */
-  
+  .logo img{
+    width: 150px;
+  }
+  .btn-top{
+    width: 100px;
+    padding: 3px;
+    margin-right: 40px;
+}
   .nav-list{
     display: none;
   }
+  
   .logo{
     width: 50%;
   }
@@ -73,15 +92,30 @@ a{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  
+  /* .toggle-menu{
+    float: right;
+    margin-right: 10px;
+  } */
+  .btn-top{
+    margin-right: 30px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+  
+  .toggle-menu{
+    display: none;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+  .nav-list{
+    float: right;
+    margin-top: 8px;
+  }
+  .menu{
+    display: none;
+  }
 }

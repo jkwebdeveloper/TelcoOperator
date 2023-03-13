@@ -15,13 +15,13 @@ const MobilePlans = () => {
             </div>
         </div>
         <div className="row">
-          <div className="col-lg-2 col-md-3">
+          <div className="col-2">
             <FIlterSection />
           </div>
-          <div className="col-6">
+          <div className="col-lg-7 col-md-12 col-sm-12">
             <Swish />
           </div>
-          <div className="col-3">
+          <div className="col-lg-3 col-md-12 col-sm-12">
             <TotalAmount />
           </div>
         </div>

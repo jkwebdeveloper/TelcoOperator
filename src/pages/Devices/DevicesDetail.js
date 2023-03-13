@@ -15,9 +15,9 @@ const DevicesDetail = () => {
     <div className="iphone-section">
       <div className="container">
         <div className="row">
-          <div className="col-12">
+          <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="row">
-              <div className="col-6 ">
+              <div className="col-lg-6 col-md-12">
                 <div className="product-img">
                   <img src={iphoneProSilver} alt="" style={{ width: '60%' }} />
                 </div>
@@ -48,13 +48,13 @@ const DevicesDetail = () => {
                 </p>
 
                 
-                  <div className="col-9">
+                  <div className="col-lg-9 col-md-12">
                     <div className="row">
                       <div className="specification-box">
                         <p className="disc-heading">Specification</p>
                         <div className="line-1"></div>
                         <div className="row">
-                          <div className="col-md-6">
+                          <div className="col-6 md-12">
                             <p className="spec-text">Model Name</p>
                             <p className="spec-text">Color</p>
                             <p className="spec-text">SIM Type</p>
@@ -69,7 +69,7 @@ const DevicesDetail = () => {
                             <p className="spec-text">Network Type</p>
                           </div>
 
-                          <div className=" col-md-6">
+                          <div className="col-6 md-12">
                             <p className="spec-size">iPhone 14 Pro Max</p>
                             <p className="spec-size">Silver</p>
                             <p className="spec-size">Dual Sim(Nano + eSIM)</p>
@@ -89,7 +89,7 @@ const DevicesDetail = () => {
                   </div>
                   
               </div>
-              <div className="col-6 md-12 sm-12">
+              <div className="col-lg-6 col-md-12 sm-12">
                 <div className="row">
                   <div className="rightbar-heading">
                     <p className="name">Apple</p>

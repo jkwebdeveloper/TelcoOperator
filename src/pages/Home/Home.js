@@ -20,7 +20,7 @@ const Home = () => {
                 <Link to="mobile-plans">
                     <div className='box'>
                         <div className="icon-bg">
-                            <img src={ mobileplan } alt="icon" style={{ height: '55px' }}/> 
+                            <img src={ mobileplan } alt="icon" style={{ height: '53px' }}/> 
                         </div>
                           <h2>Mobile plans</h2>
                     </div>
@@ -30,7 +30,7 @@ const Home = () => {
               <Link to="devices">
               <div className='box'>
                         <div className="icon-bg">
-                            <img src={ device } alt="icon" style={{ height: '55px' }}/> 
+                            <img src={ device } alt="icon" style={{ height: '53px' }}/> 
                         </div>
                           <h2>Devices</h2>
                     </div>
@@ -40,7 +40,7 @@ const Home = () => {
               <Link to="fixed-line-service">
                 <div className='box'>
                     <div className="icon-bg">
-                        <img src={ fixedline } alt="icon" style={{ height: '55px' }}/> 
+                        <img src={ fixedline } alt="icon" style={{ height: '48px' }}/> 
                     </div>
                           <h2>Fixed line service</h2>
                     </div>

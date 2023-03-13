@@ -8,13 +8,14 @@ const Overview = () => {
         <p className="heading">Product overview</p>
         <div className="overview-bg">
           <div className="row">
-            <div className="col-6">
+            <div className="col-lg-6 col-md-12">
               <div className="overview-heading">
                 <p className="overview-left">Iphone 14 Pro Max 128GB</p>
                 <p className="overview-text">Change</p>
               </div>
+              
               <div className="row">
-                <div className="col-5">
+                <div className="col-lg-5 col-md-12">
                   <div className="overview-box">
                     <p className="heading-over">Mobile plan</p>
                     <div className="plan-details">
@@ -28,7 +29,7 @@ const Overview = () => {
                     <p className="data-text-2">£30/month</p>
                   </div>
                 </div>
-                <div className="col-5">
+                <div className="col-lg-5 col-md-12">
                   <div className="overview-box">
                     <p className="heading-over">Data bundles</p>
                     <div className="plan-details">
@@ -44,7 +45,7 @@ const Overview = () => {
                 </div>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-lg-6 col-md-12">
               <p className="overview-right">
                 Renew contract |{' '}
                 <span style={{ color: '#ED1C24' }}> Terminate contract</span>

@@ -46,24 +46,24 @@ const Payment = () => {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-9">
+            <div className="col-lg-9 col-md-12">
                 <div className="payment-bg">
                     <div className="row">
                     <p className='order-heading'>Select a payment method</p>
                     <p className='heading-dec'>Choose the payment method that best for you</p>
-                        <div className="col-4">
+                        <div className="col-lg-4 col-md-12">
                             <button className='center my-2'>
                             <img src={ Visa } alt="" style={{ height: '35px' }} />
                                 Credit Card
                             </button>
                         </div>
-                        <div className="col-4">
+                        <div className="col-lg-4 col-md-12">
                         <button className='center my-2'>
                             <img src={ Paypal } alt="" style={{ height: '35px' }} />
                                 Paypal
                           </button>
                         </div>
-                        <div className="col-4">
+                        <div className="col-lg-4 col-md-12">
                         <button className='center my-2'>
                             <img src={ Orange } alt="" style={{ height: '30px' }} />
                                 Orange money
@@ -73,7 +73,7 @@ const Payment = () => {
                 </div>
               {/* <div className="account-details-bg"> */}
                 <div className="row">
-                  <div className="col-12">
+                  <div className="col-lg-12 col-md-12">
                     <div className="details-box-1">
                       <p className="card-title">Card details</p>
                       <div className="row">
@@ -81,32 +81,32 @@ const Payment = () => {
                         <input
                           type="text"
                           className="type-here-1"
-                          placeholder="Type here..."
+                          placeholder="Type here..." style={{width:'97%',padding:'10px'}}
                         />
                         <p className="input-title">Card number</p>
                         <input
                           type="text"
                           className="type-here-1"
-                          placeholder="Type here..."
+                          placeholder="Type here..." style={{width:'97%' ,padding:'10px'}}
                         />
-                        <div className="col-6">
+                        <div className="col-lg-6 col-md-12">
                           <div className="input-box-2">
                             <p className="input-title">Expiry date</p>
                             <input
                               type="text"
                               className="type-here-1"
-                              placeholder="Type here.."
+                              placeholder="Type here.." style={{padding:'10px'}}
                             />
                           </div>
                         </div>
 
-                        <div className="col-6">
+                        <div className="col-lg-6 col-md-12">
                           <div className="input-box-2">
                             <p className="input-title">CVV</p>
                             <input
                               type="text"
                               className="type-here-1"
-                              placeholder="Type here..."
+                              placeholder="Type here..." style={{padding:'10px'}}
                             />
                           </div>
                         </div>
@@ -122,7 +122,7 @@ const Payment = () => {
                 </div>
               {/* </div> */}
             </div>
-            <div className="col-3">
+            <div className="col-lg-3 col-md-12">
               <div className="total-amount-box">
                 <p className='order-heading'>Order details</p>
                 <div className="line-1"></div>
