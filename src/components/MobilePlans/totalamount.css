@@ -17,14 +17,23 @@ html, body {
     padding: 10px
 }
 .data-amount{
-    font-size: 13px;
+    font-size: 14px;
     margin-left: 10px;
     margin-top: 15px;
+    color: #606060;
+    /* font-weight: 500; */
 }
 .price{
     padding-top: 15px;
-    font-size: 13px;
+    font-size: 14px;
     margin-left: 61px;
+    /* font-weight: 600; */
+}
+.total-price{
+    padding-top: 15px;
+    font-size: 14px;
+    margin-left: 61px;
+    font-weight: 700;
 }
 .heading{
     display: flex;

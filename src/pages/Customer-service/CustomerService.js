@@ -14,7 +14,7 @@ const CustomerService = () => {
 
       <div className="container">
         <div className="row">
-          <div className="col-4">
+          <div className="col-lg-4 col-md-12 col-sm-12">
             <div className="profilebox">
               <div className="user-icon">
                 <img src={User} alt="" style={{ width: '40px' }} />
@@ -28,8 +28,8 @@ const CustomerService = () => {
       </div>
 
       <div className="container">
-        <div className="row">
-          <div className="col-4">
+        <div className="row Subscription-Main-Box-Section">
+          <div className="col-lg-4 col-md-12 col-sm-12">
             <div className="boxes">
               <p className="Sub-heading">
                 Subscription
@@ -43,7 +43,7 @@ const CustomerService = () => {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-lg-4 col-md-12 col-sm-12">
             <div className="boxes">
               <p className="Sub-heading">
                 Balance
@@ -75,7 +75,7 @@ const CustomerService = () => {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-lg-4 col-md-12 col-sm-12">
             <div className="boxes">
               <p className="Sub-heading">Notifications</p>
               {/* <div className='text-dot'></div> */}
@@ -102,61 +102,66 @@ const CustomerService = () => {
               <div className="text-dot-2"></div>
             </div>
           </div>
-          <div className="Subscriptiondetail-section">
-            <p className="Sub-heading">Subscription</p>
-            <div className="detail-bg my-4">
-        
-                  <p className="left-title-1">Iphone 14 Pro</p>
-                  <div className="middle-section">
-                    <div className="middle-1">
-                      <p className="middle-text mx-5 ">Price</p>
-                      <p className="middle mx-5">£60</p>
+        </div>
+        <div className='row'>
+          <div className='col-md-12'>
+            <div className="Subscriptiondetail-section">
+              <p className="Sub-heading">Subscription</p>
+              <div className="detail-bg my-4">
+          
+                    <p className="left-title-1">Iphone 14 Pro</p>
+                    <div className="middle-section">
+                      <div className="middle-1">
+                        <p className="middle-text mx-5 ">Price</p>
+                        <p className="middle mx-5">£60</p>
+                      </div>
+                      <div className="middle-2">
+                        <p className="middle-text mx-5">Valid From</p>
+                        <p className="middle mx-5">12/10/2022</p>
+                      </div>
+                      <div className="middle-3">
+                        <p className="middle-text mx-5">Valid To</p>
+                        <p className="middle mx-5">12/11/2022</p>
+                      </div>
+                      <Link to="/overview">
+                        <p className="view mx-5" >View more</p>
+                      </Link>
                     </div>
-                    <div className="middle-2">
-                      <p className="middle-text mx-5">Valid From</p>
-                      <p className="middle mx-5">12/10/2022</p>
+                    <div className="right">
+                      <button className="change-btn mx-2">Change</button>
+                      <button className="addbtn mx-2">+ Add</button>
+                      <button className="suspend mx-2">Suspend</button>
                     </div>
-                    <div className="middle-3">
-                      <p className="middle-text mx-5">Valid To</p>
-                      <p className="middle mx-5">12/11/2022</p>
-                    </div>
-                    <Link to="/overview">
+                  
+              </div>
+              <div className="detail-bg">
+          
+                    <p className="left-title-2">Mega HD pack</p>
+                    <div className="middle-section">
+                      <div className="middle-1">
+                        <p className="middle-text mx-5 ">Price</p>
+                        <p className="middle mx-5">£30</p>
+                      </div>
+                      <div className="middle-2">
+                        <p className="middle-text mx-5">Valid From</p>
+                        <p className="middle mx-5">12/10/2022</p>
+                      </div>
+                      <div className="middle-3">
+                        <p className="middle-text mx-5">Valid To</p>
+                        <p className="middle mx-5">12/11/2022</p>
+                      </div>
                       <p className="view mx-5" >View more</p>
-                    </Link>
-                  </div>
-                  <div className="right">
-                    <button className="change-btn mx-2">Change</button>
-                    <button className="addbtn mx-2">+ Add</button>
-                    <button className="suspend mx-2">Suspend</button>
-                  </div>
-                
-            </div>
-            <div className="detail-bg">
-        
-                  <p className="left-title-2">Mega HD pack</p>
-                  <div className="middle-section">
-                    <div className="middle-1">
-                      <p className="middle-text mx-5 ">Price</p>
-                      <p className="middle mx-5">£30</p>
                     </div>
-                    <div className="middle-2">
-                      <p className="middle-text mx-5">Valid From</p>
-                      <p className="middle mx-5">12/10/2022</p>
+                    <div className="right">
+                      <button className="change-btn mx-2">Change</button>
+                      <button className="addbtn mx-2">+ Add</button>
+                      <button className="resume mx-2">Resume</button>
                     </div>
-                    <div className="middle-3">
-                      <p className="middle-text mx-5">Valid To</p>
-                      <p className="middle mx-5">12/11/2022</p>
-                    </div>
-                    <p className="view mx-5" >View more</p>
-                  </div>
-                  <div className="right">
-                    <button className="change-btn mx-2">Change</button>
-                    <button className="addbtn mx-2">+ Add</button>
-                    <button className="resume mx-2">Resume</button>
-                  </div>
-                
+                  
+              </div>
             </div>
           </div>
+          <div className="col-md-12">
           <div className="service-section my-5">
             <p className="Sub-heading">Customer service</p>
             <p className='Create-right'>Create new ticket <IoIosArrowForward /></p>
@@ -182,6 +187,7 @@ const CustomerService = () => {
                   <p className=''>Closed</p>
                 </div>
             </div>
+          </div>
           </div>
         </div>
       </div>

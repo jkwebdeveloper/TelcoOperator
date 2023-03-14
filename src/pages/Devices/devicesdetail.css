@@ -236,6 +236,9 @@
         text-align: center;
         /* margin: 15px 29px 10px 49px; */
     }
+    .devices-product{
+        margin-top: 30px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

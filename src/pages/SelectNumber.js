@@ -110,7 +110,9 @@ const SelectNumber = () => {
                   <p className="final-amount">£330.00</p>
                 </div>
                 <button className="next-top my-4">Next</button>
-                <button className="back-top">Back</button>
+                <Link to="/mobile-plans">
+                  <button className="back-top">Back</button>
+                </Link>
               </div>
             </div>
           </div>

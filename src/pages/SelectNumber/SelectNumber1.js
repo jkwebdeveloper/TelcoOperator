@@ -46,59 +46,67 @@ const SelectNumber1 = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-9 col-md-12">
-                <div className="select-bg">
-                    <div className="plans">
-                        <div className="title">Select phone number</div>
-                        <label className="plan basic-plan my-3" htmlFor="basic">
-                            <input onChange type="radio" name="plan" id="basic" />
-                            <div className="plan-content">
-                            <div className="icon-bg-1">
-                                <img src={icon} alt="icon" style={{ height: '55px' }} />
-                            </div>
-                            <div className="plan-details">
-                                <span>Keep existing number</span>
-                            </div>
-                            </div>
-                        </label>
-                        <label className="plan complete-plan" htmlFor="complete">
-                            <input type="radio" id="complete" name="plan" />
-                            <div className="plan-content">
-                                <div className="icon-bg-1">
-                                    <img src={icon2} alt="icon" style={{ height: '55px' }}/>
-                                </div>
-                                <div className="plan-details">
-                                <span>Select new number</span>
-                                </div>
-                            </div>
-                        </label>
+              <div className="select-bg">
+                <div className="plans">
+                  <div className="title">Select phone number</div>
+                  <label className="plan basic-plan my-3" htmlFor="basic">
+                    <input onChange type="radio" name="plan" id="basic" />
+                    <div className="plan-content">
+                      <div className="icon-bg-1">
+                        <img src={icon} alt="icon" style={{ height: '55px' }} />
+                      </div>
+                      <div className="plan-details">
+                        <span>Keep existing number</span>
+                      </div>
                     </div>
-
-                    <div className="plans">
-                        <div className="title">Select phone number</div>
-                        <label className="plan basic-plan my-3" htmlFor="basic">
-                            <input onChange type="radio" name="plan" id="basic" />
-                            <div className="plan-content">
-                              <div className="icon-bg-1">
-                                  <img src={icon} alt="icon" style={{ height: '55px' }} />
-                              </div>
-                              <div className="plan-details">
-                                  <span>Keep existing number</span>
-                              </div>
-                            </div>
-                        </label>
-                        <label className="plan complete-plan" htmlFor="complete">
-                            <input type="radio" id="complete" name="plan" />
-                            <div class="plan-content">
-                                <div className="icon-bg-1">
-                                    <img src={icon2} alt="icon" style={{ height: '55px' }}/>
-                                </div>
-                                <div className="plan-details">
-                                <span>Select new number</span>
-                                </div>
-                            </div>
-                        </label>
+                  </label>
+                  <label className="plan complete-plan" htmlFor="complete">
+                    <input type="radio" id="complete" name="plan" />
+                    <div className="plan-content">
+                      <div className="icon-bg-1">
+                        <img
+                          src={icon2}
+                          alt="icon"
+                          style={{ height: '55px' }}
+                        />
+                      </div>
+                      <div className="plan-details">
+                        <span>Select new number</span>
+                      </div>
                     </div>
+                  </label>
                 </div>
+
+                <div className="plans">
+                  <div className="title">Select SIM type</div>
+                  <label className="plan basic-plan my-3" htmlFor="basic">
+                    <input onChange type="radio" name="plan" id="basic" />
+                    <div className="plan-content">
+                      <div className="icon-bg-1">
+                        <img src={icon} alt="icon" style={{ height: '55px' }} />
+                      </div>
+                      <div className="plan-details">
+                        <span>eSIM</span>
+                      </div>
+                    </div>
+                  </label>
+                  <label className="plan complete-plan" htmlFor="complete">
+                    <input type="radio" id="complete" name="plan" />
+                    <div class="plan-content">
+                      <div className="icon-bg-1">
+                        <img
+                          src={icon2}
+                          alt="icon"
+                          style={{ height: '55px' }}
+                        />
+                      </div>
+                      <div className="plan-details">
+                        <span>Physical SIM</span>
+                      </div>
+                    </div>
+                  </label>
+                </div>
+              </div>
             </div>
             <div className="col-lg-3 col-md-12">
               <div className="total-amount-box">
@@ -116,9 +124,11 @@ const SelectNumber1 = () => {
                   <p className="final-amount">£330.00</p>
                 </div>
                 <Link to="/accountdetails">
-                        <button className='next-top my-4'>Next</button>
+                  <button className="next-top my-4">Next</button>
                 </Link>
-                <button className="back-top">Back</button>
+                <Link to="/select-number">
+                  <button className="back-top">Back</button>
+                </Link>
               </div>
             </div>
           </div>

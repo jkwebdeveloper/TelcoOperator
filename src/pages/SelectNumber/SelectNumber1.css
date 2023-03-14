@@ -23,8 +23,7 @@
     width: 100%;
   }
   .select-bg{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 30px;
   }
   .md-stepper-horizontal{
     display: none;

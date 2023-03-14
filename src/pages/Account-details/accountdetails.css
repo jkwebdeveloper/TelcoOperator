@@ -169,10 +169,11 @@ span {
 }
 .type-here{
   margin-left: 10px;
-  width: 97.5%;
+  width: calc(100% - 20px);
   border: 1px solid #E6E6E6;
   border-radius: 4px;
   padding: 6px;
+  font-size: 12px;
   outline: none;
 }
 .input-box-2{
@@ -180,13 +181,22 @@ span {
 }
 .type-here-1{
   margin-left: 10px;
-  width: 95%;
+  width: calc(100% - 20px) !important;
   border: 1px solid #E6E6E6;
   border-radius: 4px;
   padding: 6px;
   outline: none;
+  font-size: 12px;
 }
-
+.type-here-Add{
+  margin-left: 18px;
+  width: calc(100% - 36px) !important;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 12px;
+  outline: none;
+}
 
 
 
@@ -238,6 +248,7 @@ span {
   color: #005DA2;
   background-color: #ffff;
   border: 1px solid #005DA2;
+  font-size: 15px;
 }
 .checkout-top:hover{
   background-color: #005DA2;
@@ -269,13 +280,14 @@ span {
 .upload{
   float: right;
   width: 100px;
-  padding: 5px;
+  padding: 8px;
   border-radius: 20px;
   margin-right: 20px;
   margin-top: 20px;
   border: none;
   background-color: #005DA2;
   color: #fff;
+  font-size: 13px;
 }
 
 
@@ -289,11 +301,17 @@ span {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	/* For mobile phones: */
-  [class*="col-"] {
+  /* [class*="col-"] {
     width: 100%;
-  }
+  } */
   .md-stepper-horizontal{
     display: none;
+  }
+  .type-here-1{
+    width: calc(100% - 20px) !important;
+  }
+  .account-details-bg{
+    margin-top: 30px;
   }
 }
 

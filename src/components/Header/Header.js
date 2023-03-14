@@ -28,7 +28,7 @@ const Header = () => {
                 <div className="col-8">
                         {/* <button className='btn-top'>Log Out</button> */}
                         <div className="toggle-menu">
-                          <li><a href="/"><HiMenu/></a></li>
+                          <li><a href="#"><HiMenu/></a></li>
                         </div>
                         <button className='btn-top'>Log In</button>
                     <div className="nav-list">

@@ -81,13 +81,13 @@ const Payment = () => {
                         <input
                           type="text"
                           className="type-here-1"
-                          placeholder="Type here..." style={{width:'97%',padding:'10px'}}
+                          placeholder="Type here..." 
                         />
                         <p className="input-title">Card number</p>
                         <input
                           type="text"
                           className="type-here-1"
-                          placeholder="Type here..." style={{width:'97%' ,padding:'10px'}}
+                          placeholder="Type here..." 
                         />
                         <div className="col-lg-6 col-md-12">
                           <div className="input-box-2">
@@ -131,7 +131,7 @@ const Payment = () => {
                   <p className="total-amount">£30.00</p>
                 </div>
                 <div className="product-total">
-                  <p className="modal-name">TP-Link Archer C20</p>
+                  <p className="modal-name">Iphone 14 Pro Max 128gb</p>
                   <p className="link-total-amount">£300.00</p>
                 </div>
                 <div className="line-1"></div>

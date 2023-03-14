@@ -76,6 +76,12 @@ html, body {
       }
 }
 
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .filter-section{
+        display: none;
+    }
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
     

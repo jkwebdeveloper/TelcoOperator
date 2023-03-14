@@ -54,19 +54,19 @@ const AccountDetails = () => {
                     <input
                       type="email"
                       className="type-here"
-                      placeholder="Select"
+                      placeholder="Ex. johnadam12@gmail.com"
                     />
                     <p className="heading">User name</p>
                     <input
                       type="text"
                       className="type-here"
-                      placeholder="Select"
+                      placeholder="Type here..."
                     />
                     <p className="heading">Customer name</p>
                     <input
                       type="text"
                       className="type-here"
-                      placeholder="Select"
+                      placeholder="Type here..."
                     />
                   </div>
                 </div>
@@ -140,15 +140,15 @@ const AccountDetails = () => {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-lg-12 ">
+                  <div className="col-lg-12 col-md-12">
                     <div className="details-box">
                       <p className="account-title">Address details</p>
                       <div className="row">
                         <p className="heading">Address</p>
                         <input
-                          type="date"
-                          className="type-here-1"
-                          placeholder="Select"
+                          type="text"
+                          className="type-here-Add"
+                          placeholder="Type here..."
                         />
                         <div className="col-lg-6 col-md-12">
                           <div className="input-box-2">
@@ -162,7 +162,7 @@ const AccountDetails = () => {
                             <input
                               type="text"
                               className="type-here-1"
-                              placeholder="Type here.."
+                              placeholder="Select"
                             />
                           </div>
                         </div>
@@ -173,13 +173,13 @@ const AccountDetails = () => {
                             <input
                               type="text"
                               className="type-here-1"
-                              placeholder="Personal ID"
+                              placeholder="Select"
                             />
                             <p className="heading">Postal code</p>
                             <input
                               type="text"
                               className="type-here-1"
-                              placeholder="Select"
+                              placeholder="Type here..."
                             />
                           </div>
                         </div>
@@ -219,9 +219,11 @@ const AccountDetails = () => {
                   <p className="final-amount">£330.00</p>
                 </div>
                 <Link to="/payment-method">
-                <button className="checkout-top my-4">Checkout</button>
+                  <button className="checkout-top my-4">Checkout</button>
                 </Link>
-                <button className="back-top">Back</button>
+                <Link to="/select-Number1">
+                  <button className="back-top">Back</button>
+                </Link>
               </div>
             </div>
           </div>

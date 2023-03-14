@@ -21,14 +21,17 @@ const TotalAmount = () => {
           <p className="heading">Total</p>
         </div>
         <div className="col-6">
-          <div className="price">
+          <div className="total-price">
             <p>£70.00</p>
           </div>
         </div>
         <Link to="/select-number">
           <button className="next-top my-4">Next</button>
         </Link>
-        <button className="back-top">Back</button>
+        <Link to="/">
+          <button className="back-top">Back</button>
+        </Link>
+        {/* <button className="back-top">Back</button> */}
       </div>
     </div>
   )
