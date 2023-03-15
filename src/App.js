@@ -14,6 +14,7 @@ import Payment from './pages/Payment/Payment'
 import ThankYou from './pages/Thankyou/ThankYou'
 import CustomerService from './pages/Customer-service/CustomerService'
 import Overview from './pages/Overview/Overview'
+import FIlterSection from './components/MobilePlans/FIlterSection'
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path='/payment-method/payment-successful' element={ <ThankYou/> }/>
           <Route path='/payment-method/payment-successful/CustomerService' element={ <CustomerService/> }/>
           <Route path='/overview' element={ <Overview/> }/>
+          <Route path='/filtersection' element={ <FIlterSection/> }/>
         </Routes> 
         <Footer />
       </BrowserRouter>

@@ -47,7 +47,7 @@ const CustomerService = () => {
             <div className="boxes">
               <p className="Sub-heading">
                 Balance
-                <button className="button-new">Top up</button>
+                <button className="button-Top-up">Top up</button>
               </p>
               <div className="swish-boxes-2">
                 <p className="swish-content-2">£10</p>

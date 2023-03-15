@@ -10,17 +10,6 @@
   width: 100%;
   height: 300px;
 }
-/* .profilebox {
-  width: 25%;
-  height: 100px;
-  background-color: #1a90e8;
-  border: 1px solid #096cb6;
-  position: absolute;
-  top: 19%;
-  border-radius: 12px;
-  padding: 20px 0px 20px 15px;
-  text-align: start;
-} */
 .profilebox{
   width: 22%;
   padding: 15px 0px 13px 15px;
@@ -38,14 +27,6 @@
 .user-icon img{
   padding-left: 10px;
 }
-/* .user-icon img {
-  width: 50px;
-  line-height: 50px;
-  vertical-align: middle;
-  padding: 10px;
-  padding-top: 28px;
-  display: flex;
-} */
 .user-name{
   font-weight: 500;
   font-size: 15px;
@@ -89,6 +70,17 @@
   color: #fff;
   padding: 7px;
   margin-left: 138px;
+}
+.button-Top-up{
+  width: 100px;
+  justify-content: center;
+  border-radius: 35px;
+  background-color: #005DA2;
+  font-size: 13px;
+  border: none;
+  color: #fff;
+  padding: 7px;
+  margin-left: 177px;
 }
 .swish-boxes{
   background-color: #E8F5FF;
@@ -268,6 +260,7 @@
 .customer-detail-bg{
   background-color: #F2F5FF;
   border-radius: 12px;
+  padding: 8px;
 }
 .customer-detail-bg-1{
   border: 1px solid #DCDCDC;
@@ -303,6 +296,9 @@
   .profilebox{
     width: calc(100% - 26px);
   }
+  /* .button-new{
+    margin-left: 170px;
+  } */
   .boxes{
     height: auto;
   }
@@ -320,6 +316,19 @@
   }
   .right button{
     margin-bottom: 15px;
+  }
+  .right {
+    padding: 0px;
+    margin-top: 60px;
+  }
+  .left-title-1{
+    padding: 12px;
+    font-size: 12px;
+    /* margin-top: 20px; */
+  }
+  .left-title-2{
+    padding: 15px;
+    font-size: 12px;
   }
 }
 /* Extra small devices (phones, 600px and down) */
